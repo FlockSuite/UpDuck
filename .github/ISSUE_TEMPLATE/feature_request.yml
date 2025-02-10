@@ -1,6 +1,9 @@
 name: 🗳️ Feature request
 description: gimme gimme gimme
 body:
+  - type: markdown
+    attributes:
+      value: Please use a descriptive title for your request. This will help others find it when searching
   - type: textarea
     id: request
     attributes:
