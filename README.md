@@ -67,6 +67,8 @@
 
 
 ## About UpDuck
+UpDuck is a modern monitoring tool built with Node.js and an Angular frontend. It helps monitor online services and keeps users updated on their status through various integrations.
+
 This readme will be populated at a later stage.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
