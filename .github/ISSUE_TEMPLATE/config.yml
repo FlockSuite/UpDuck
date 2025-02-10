@@ -9,18 +9,4 @@
 # ║   Quacking Down on Downtime!   ║ #
 # ╚════════════════════════════════╝ #
 ######################################
-name: 🗳️ Feature request
-description: gimme gimme gimme
-body:
-  - type: markdown
-    attributes:
-      value: Please use a descriptive title for your request. This will help others find it when searching
-  - type: textarea
-    id: request
-    attributes:
-      label: 📃 Feature request
-      description: Tell us what you'd like to see added in future versions
-      placeholder: >-
-        I'd like to see all ducks replaced with geese
-    validations:
-      required: true
+blank_issues_enabled: false
