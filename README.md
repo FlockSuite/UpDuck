@@ -12,10 +12,6 @@
 ######################################
 -->
 <a id="readme-top"></a>
-![Logo](assets/icon.svg)
-[![Contributors][contributors-shield]][contributors-url]
-[![Issues][issues-shield]][issues-url]
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -31,7 +27,11 @@
     <br />
     <a href="https://docs.upduck.io"><strong>Explore the docs »</strong></a>
     <br />
-    <br />
+    <div align="center">
+      <a href="https://github.com/FlockSuite/UpDuck/graphs/contributors"><img src="https://img.shields.io/github/contributors/FlockSuite/UpDuck.svg?style=for-the-badge" /></a>
+      <a href="https://github.com/FlockSuite/UpDuck/issues"><img src="https://img.shields.io/github/issues/FlockSuite/UpDuck/issues.svg?style=for-the-badge" /></a>
+      <a href="https://github.com/FlockSuite/UpDuck/stargazers"><img src="https://img.shields.io/github/stars/FlockSuite/UpDuck.svg?style=for-the-badge"/></a>
+    </div>
     <a href="https://github.com/FlockSuite/UpDuck/issues">Issues</a>
     &middot;
     <a href="https://github.com/FlockSuite/UpDuck/issues/new?template=bug_report.yml">Report Issue</a>
@@ -154,10 +154,5 @@ See the [open issues](https://github.com/FlockSuite/UpDuck/issues) for a full li
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- Definitions -->
-[contributors-shield]: https://img.shields.io/github/contributors/FlockSuite/UpDuck.svg?style=for-the-badge
-[contributors-url]: https://github.com/FlockSuite/UpDuck/graphs/contributors
-[stars-shield]: https://img.shields.io/github/stars/FlockSuite/UpDuck.svg?style=for-the-badge
-[stars-url]: https://github.com/FlockSuite/UpDuck/stargazers
-[issues-shield]: https://img.shields.io/github/issues/FlockSuite/UpDuck/issues.svg?style=for-the-badge
-[issues-url]: https://github.com/FlockSuite/UpDuck/issues
+---
+![Logo](assets/icon.svg)
