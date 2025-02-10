@@ -152,7 +152,7 @@ See the [open issues](https://github.com/FlockSuite/UpDuck/issues) for a full li
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Definitions -->
-[contributors-shield]: https://img.shields.io/github/contributors/FlockSuite/UpDuck/issues.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/FlockSuite/UpDuck.svg?style=for-the-badge
 [contributors-url]: https://github.com/FlockSuite/UpDuck/graphs/contributors
 [stars-shield]: https://img.shields.io/github/stars/FlockSuite/UpDuck.svg?style=for-the-badge
 [stars-url]: https://github.com/FlockSuite/UpDuck/stargazers
