@@ -1,6 +1,9 @@
 name: 🦗 New issue
 description: omg smth hppnd
 body:
+  - type: markdown
+    attributes:
+      value: Please use a descriptive title for your issue. This will help others find it when searching
   - type: input
     id: version
     attributes:
