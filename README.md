@@ -20,8 +20,11 @@
 <br />
 <div align="center">
   <a href="https://upduck.io">
-    <img src="assets/logo-dark.png#gh-dark-mode-only" alt="Logo" width="300" height="79">
-    <img src="assets/logo-light.png#gh-light-mode-only" alt="Logo" width="300" height="79">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.png">
+      <source media="(prefers-color-scheme: light)"srcset="assets/logo-light.png">
+      <img alt="UpDuck Logo" src="assets/logo-light.png">
+    </picture>
   </a>
   <p align="center">
     Quacking down on Downtime!
