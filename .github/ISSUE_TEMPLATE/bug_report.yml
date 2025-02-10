@@ -1,12 +1,61 @@
-name: 🗳️ Feature request
-description: gimme gimme gimme
+name: 🦗 New issue
+description: omg smth hppnd
 body:
-  - type: textarea
-    id: request
+  - type: input
+    id: version
     attributes:
-      label: 📃 Feature request
-      description: Tell us what you'd like to see added in future versions
-      placeholder: >-
-        I'd like to see all ducks replaced with geese
+      label: 🦆 UpDuck version
+      description: You can find the version in Settings -> Build info
+  - type: dropdown
+    id: deployment
+    attributes:
+      label: 📦Deployment type
+      options:
+        - Docker (docker run)
+        - Docker Compose
+        - Docker Swarm
+        - Kubernetes
     validations:
       required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 👀 Expected Behavior
+      description: Tell us what should have happened
+      placeholder: >-
+        When clicking the delete button on the server inspect page, I
+        expected...
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: 👁️ Current Behavior
+      description: Tell us what happens instead of the expected behavior
+      placeholder: I click the delete button and then...
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 📃 Steps to Reproduce
+      description: Clear steps to reproduce the issue
+      placeholder: '1.'
+      value: |-
+        1.
+        2.
+        3.
+        4.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: 🔍 Possible Solution
+      description: Not obligatory, but suggest a fix/reason for the bug
+      placeholder: Show a popup that asks if...
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: 📷 Screenshots
+      description: You can paste screenshots here if you have any
